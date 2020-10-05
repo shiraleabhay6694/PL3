@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>
+</head>
+<body style="text-align:center;border:3px solid black;padding:20px" >
+	<h1> <p>SERVICE  FEEDBACK  FORM</p></h1>
+	<div>
+		<form action="https://www.google.com/" method="GET">
+			<label>
+				First Name: <input type="text" id="First" name="firstName" required placeholder="Deepak">
+			</label>
+			
+			<label>
+				Last Name: <input type="text" id="Last" name="lastName" required placeholder="Chavan">
+			</label>
+			<br>
+			<br>
+			<div>
+				<label>
+					 Email ID: <input type="email" name="emailid" placeholder="abc@gmail.com" required>
+				</label>
+				
+			</div>
+			<br>
+			<br>
+			<div>
+				<label>
+					Document:(image/jpeg , image/gif,  image/png , application/pdf  ,image/x-eps) 
+					<ul>
+						<li><input type="file" accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps"></li>
+						<br>
+						
+					</ul>
+				</label>
+				
+			</div>
+			<br>
+			
+			<div>
+				<p>Comments:</p>
+				<textarea id="txt" rows="5" cols="50" placeholder="write your comments here//" required></textarea>
+			</div>
+			<br>
+			<br>
+
+			<input type="reset">
+			<button onclick="myFun()">Submit</button>
+
+			<script>
+				function myFun(){
+					alert("Yahh Feedback Submitted Successfully!!\n THANK YOU HAVE A GREAT DAY");
+
+				}
+			</script>
+			
+
+
+			
+		</form>
+	 </div>	
+
+</body>
+</html>
