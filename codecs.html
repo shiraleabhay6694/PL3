@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code:degree to Fahrenheit</title>
+	<style type="text/css">
+		body{
+			font-size: 20px;
+			font-style:oblique;
+			text-align: left;
+			border: 5px solid black;	
+			/*width color margin*/
+		}
+
+		h1{
+			color:rgb(200,10,20);
+		}
+
+		.ip{
+			color:#ff8000;
+		}
+
+		#op{
+			color:hsl(210, 100%, 50%);
+		}
+	</style>
+</head>
+<body>
+	<h1>C program to convert temperature from degree celsius to fahrenheit </h1>
+	<strong class="ip">CODE</strong>
+	<code>
+	<pre>
+	int main(){
+		float celsius , fahrenheit;
+		printf("Enter Temperature in Celsius :");					
+		scanf("%4f",&celsius);
+		fahrenheit = ((celsius*9)/5)+32;
+		printf("\nTemperature in Fahrenheit is %f",fahrenheit);
+		return 0;
+	}				
+	</pre>
+	<span>Variables:
+	<var>
+		celsius,fahrenheit
+	</var></span><br><br>
+	<samp><strong class="ip">Sample Input :</strong><kbd>38</kbd></samp><br><br>
+	<samp><strong id="op">Sample Output :</strong><kbd>100.4</kbd></samp>
+	<br><br>
+	<h4 style="border: 2px solid green;background-color: gray; text-align: center;">Complexity : O(1)</h4>
+	<code>
+</body>
+</html>
